@@ -1,0 +1,20 @@
+{
+	"name": "darka84/woo_product_scraper",
+	"license": "GPL-2.0-or-later",
+	"description": "Copy products from any eshop to your woocommerce.",
+	"keywords": [
+		"wordpress", "wp", "woocommerce"
+	],
+	"support": {
+		"issues": "https://github.com/darka84/woo_product_scraper"
+	},
+	"require": {
+		"php": ">=5.4",
+		"squizlabs/php_codesniffer": "^3.3.1",
+		"voku/simple_html_dom": "^4.8",
+		"voku/portable-utf8": "^6.0"
+    },
+	"require-dev": {
+        "wp-coding-standards/wpcs": "2.1.*"
+    }
+}
