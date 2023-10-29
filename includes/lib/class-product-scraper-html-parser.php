@@ -140,7 +140,7 @@ class Product_Scraper_HTML_Parser {
 
             $product->save();
 
-            wp_redirect( "https://pino.lt/wp-admin/post.php?action=edit&post=".$product->get_id());
+            wp_redirect( "post.php?action=edit&post=".$product->get_id());
 
 
 
